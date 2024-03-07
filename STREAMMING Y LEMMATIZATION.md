@@ -30,17 +30,17 @@ Diferencias clave:
 
 Reducir las palabras de un texto a su forma base o raíz a través de técnicas como stemming y lemmatization es una práctica común en el procesamiento del lenguaje natural (NLP) por varias razones clave:
 
-**Reducir la complejidad:** Al convertir las palabras a su forma base, reducimos la variabilidad del lenguaje, lo que disminuye la complejidad del texto y el tamaño del vocabulario con el que deben trabajar los algoritmos de NLP.
+** Reducir la complejidad:** Al convertir las palabras a su forma base, reducimos la variabilidad del lenguaje, lo que disminuye la complejidad del texto y el tamaño del vocabulario con el que deben trabajar los algoritmos de NLP.
 
-**Mejorar la precisión de la búsqueda: **Cuando se indexan documentos para la búsqueda, reducir las palabras a su forma base permite que una consulta devuelva resultados relevantes incluso si la forma exacta de la palabra no coincide, mejorando la relevancia y la cobertura de la búsqueda.
+** Mejorar la precisión de la búsqueda: **Cuando se indexan documentos para la búsqueda, reducir las palabras a su forma base permite que una consulta devuelva resultados relevantes incluso si la forma exacta de la palabra no coincide, mejorando la relevancia y la cobertura de la búsqueda.
 
-**Unificar términos similares:** La reducción permite tratar como iguales variantes de una misma palabra (por ejemplo, "correr", "corriendo", "corre"), lo cual es crucial para análisis agregados, como el conteo de frecuencias o la determinación de la relevancia de términos en un corpus.
+** Unificar términos similares:** La reducción permite tratar como iguales variantes de una misma palabra (por ejemplo, "correr", "corriendo", "corre"), lo cual es crucial para análisis agregados, como el conteo de frecuencias o la determinación de la relevancia de términos en un corpus.
 
-**Facilitar el análisis semántico:** Al estandarizar las palabras a su lema o raíz, es más fácil analizar y comparar el significado de los textos, ya que se minimizan las variaciones superficiales en la forma de las palabras.
+** Facilitar el análisis semántico:** Al estandarizar las palabras a su lema o raíz, es más fácil analizar y comparar el significado de los textos, ya que se minimizan las variaciones superficiales en la forma de las palabras.
 
-**Optimizar el entrenamiento de modelos: **En el aprendizaje automático, reducir la dimensionalidad de los datos (en este caso, la cantidad de palabras únicas) puede mejorar la eficiencia del entrenamiento y la efectividad de los modelos, ya que los modelos pueden enfocarse en aprender relaciones más generales en lugar de particularidades específicas del uso de palabras.
+** Optimizar el entrenamiento de modelos: **En el aprendizaje automático, reducir la dimensionalidad de los datos (en este caso, la cantidad de palabras únicas) puede mejorar la eficiencia del entrenamiento y la efectividad de los modelos, ya que los modelos pueden enfocarse en aprender relaciones más generales en lugar de particularidades específicas del uso de palabras.
 
-**Mejorar la consistencia en el procesamiento del lenguaje: **Especialmente en idiomas con rica flexión morfológica, la reducción a la forma base ayuda a mantener la consistencia al procesar variantes de una palabra, lo que es vital para tareas como el análisis de sentimientos, la clasificación de textos o la extracción de información.
+** Mejorar la consistencia en el procesamiento del lenguaje: **Especialmente en idiomas con rica flexión morfológica, la reducción a la forma base ayuda a mantener la consistencia al procesar variantes de una palabra, lo que es vital para tareas como el análisis de sentimientos, la clasificación de textos o la extracción de información.
 
 En resumen, la reducción de palabras a su forma base en NLP facilita y mejora el análisis del texto, la extracción de información relevante y la eficiencia general de los algoritmos y modelos utilizados en diversas aplicaciones de procesamiento del lenguaje.
 
