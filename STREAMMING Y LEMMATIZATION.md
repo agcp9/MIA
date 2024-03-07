@@ -30,7 +30,7 @@ Diferencias clave:
 
 Reducir las palabras de un texto a su forma base o raíz a través de técnicas como stemming y lemmatization es una práctica común en el procesamiento del lenguaje natural (NLP) por varias razones clave:
 
-** Reducir la complejidad:** Al convertir las palabras a su forma base, reducimos la variabilidad del lenguaje, lo que disminuye la complejidad del texto y el tamaño del vocabulario con el que deben trabajar los algoritmos de NLP.
+**Reducir la complejidad:** Al convertir las palabras a su forma base, reducimos la variabilidad del lenguaje, lo que disminuye la complejidad del texto y el tamaño del vocabulario con el que deben trabajar los algoritmos de NLP.
 
 ** Mejorar la precisión de la búsqueda: **Cuando se indexan documentos para la búsqueda, reducir las palabras a su forma base permite que una consulta devuelva resultados relevantes incluso si la forma exacta de la palabra no coincide, mejorando la relevancia y la cobertura de la búsqueda.
 
