@@ -20,3 +20,22 @@ Al tokenizar un documento en el contexto de procesamiento de lenguaje natural (N
 - Detección de spam y moderación de contenido: Al tokenizar el texto, se pueden identificar patrones y palabras clave específicas que ayudan a clasificar el contenido como spam, contenido inapropiado o peligroso.
 
 En resumen, la tokenización es un paso crítico en una variedad de aplicaciones de NLP, ya que transforma el texto en unidades manejables que sirven como base para análisis y aplicaciones más complejas.
+
+## - ¿Qué ventajas presenta tokenizar frente a utilizar expresiones regulares?
+
+La tokenización y el uso de expresiones regulares son dos técnicas fundamentales en el procesamiento del lenguaje natural (NLP), pero sirven a propósitos distintos y presentan ventajas diferentes. Aquí están algunas ventajas de la tokenización frente al uso de expresiones regulares:
+
+- Especialización en texto: La tokenización está específicamente diseñada para dividir el texto en unidades significativas (tokens), considerando las peculiaridades del lenguaje natural. Las expresiones regulares son herramientas más generales que pueden no ser tan eficientes o precisas en el contexto específico del lenguaje natural.
+
+- Contexto y coherencia lingüística: Los tokenizadores a menudo están diseñados para entender y respetar las reglas lingüísticas y el contexto del texto. Pueden manejar mejor situaciones complejas, como abreviaturas, contracciones, y diferentes alfabetos o símbolos. Las expresiones regulares, si no están meticulosamente diseñadas, pueden fallar en reconocer estos matices.
+
+- Robustez: Los tokenizadores modernos a menudo utilizan modelos de aprendizaje automático entrenados en grandes corpus de texto, lo que les permite manejar una amplia variedad de casos de uso y variaciones en el texto. En contraste, las expresiones regulares requieren ser manualmente ajustadas para cada caso específico, lo que puede ser tedioso y propenso a errores.
+
+- Eficiencia en el procesamiento de lenguajes naturales específicos: Algunos tokenizadores están optimizados para idiomas específicos, teniendo en cuenta las particularidades y estructuras gramaticales de cada idioma. Las expresiones regulares son más genéricas y no están diseñadas con estas consideraciones específicas del idioma en mente.
+
+- Manejo de ambigüedades: La tokenización puede ser más efectiva en el manejo de ambigüedades en el texto, como palabras que pueden ser tanto sustantivos como verbos, dependiendo del contexto. Un tokenizador puede, en muchos casos, identificar correctamente la función de la palabra en el contexto, mientras que una expresión regular no tendría esta capacidad sin una lógica adicional compleja.
+
+- Escalabilidad: Para textos grandes y proyectos de NLP en gran escala, la tokenización puede ser más escalable y fácil de mantener que un conjunto complejo de expresiones regulares, especialmente cuando los cambios en el idioma o en los requisitos del proyecto requieren ajustes en el procesamiento del texto.
+
+En resumen, aunque las expresiones regulares son herramientas poderosas y flexibles para el procesamiento de cadenas de texto, la tokenización ofrece ventajas específicas para el procesamiento del lenguaje natural, haciendo que sea generalmente más adecuada para tareas de NLP, donde el contexto lingüístico y la coherencia son cruciales.
+
