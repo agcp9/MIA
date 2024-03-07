@@ -7,7 +7,7 @@ En el procesamiento del lenguaje natural (NLP, por sus siglas en inglés), token
 Por ejemplo, la frase "¡Hola, mundo!" tokenizada podría resultar en una lista de tokens como ["¡Hola", ",", "mundo", "!"]. Este proceso ayuda a separar las palabras y otros elementos del texto para su análisis individual, facilitando tareas como el análisis de sentimientos, la traducción automática, la detección de entidades nombradas y muchas otras aplicaciones de NLP.
 
 
-##- ¿qué tipo de problemas podemos resolver al tokenizar un documento?
+## - ¿qué tipo de problemas podemos resolver al tokenizar un documento?
 
 Al tokenizar un documento en el contexto de procesamiento de lenguaje natural (NLP), se pueden abordar y resolver varios tipos de problemas:
 
